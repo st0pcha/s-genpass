@@ -1,0 +1,36 @@
+{
+	"name": "@st0pcha/genpass",
+	"version": "1.0.1",
+	"description": "password generator",
+	"main": "out/index.js",
+	"type": "commonjs",
+	"types": "out/index.d.ts",
+	"files": [
+		"out"
+	],
+	"private": false,
+	"devDependencies": {
+		"typescript": "^5.5.4"
+	},
+	"scripts": {
+		"start": "node out/index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/st0pcha/s-genpass.git"
+	},
+	"keywords": [
+		"password",
+		"generator",
+		"typescript",
+		"passgen",
+		"genpass"
+	],
+	"author": "st0pcha",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/st0pcha/s-genpass/issues"
+	},
+	"homepage": "https://github.com/st0pcha/s-genpass#readme"
+}
